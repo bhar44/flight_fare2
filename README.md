@@ -31,30 +31,13 @@ The Code is written in Python 3.12.4.If you are using a lower version of Python 
 ```
     
 ## Deployement 
-#!/bin/bash
+To run the Flight Fare Prediction application locally, follow these steps:
 
-# Step 1: Clone the repository
-echo "Cloning the repository..."
-git clone https://github.com/bhar44/flight_fare2.git
-cd flight_fare2 || { echo "Repository not found."; exit 1; }
-
-# Step 2: Check for Python and Pip installation
-echo "Checking Python version..."
-python --version || { echo "Python is not installed. Please install Python."; exit 1; }
-
-echo "Checking for pip installation..."
-python -m ensurepip --upgrade || { echo "Pip is not installed. Installing pip..."; python -m ensurepip --upgrade; }
-
-# Step 3: Install the required dependencies
-echo "Installing dependencies..."
-pip install -r requirements.txt || { echo "Failed to install dependencies."; exit 1; }
-
-# Step 4: Run the application
-echo "Starting the Flask application..."
-python app.py || { echo "Failed to start the application."; exit 1; }
-
-# Step 5: Provide the local access link
-echo "Your application is running at http://127.0.0.1:5000/"
+Prerequisites
+1)Python 3.x: Ensure Python is installed on your machine. You can check the version by running:
+```bash
+python --version
+```
 
  
  
