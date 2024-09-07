@@ -32,16 +32,41 @@ The Code is written in Python 3.12.4.If you are using a lower version of Python 
     
 ## Deployement 
 To run the Flight Fare Prediction application locally, follow these steps:
-
 Prerequisites
+
 1)Python 3.x: Ensure Python is installed on your machine. You can check the version by running:
 ```bash
 python --version
 ```
+2)Pip: Make sure you have pip installed to manage dependencies. Install pip by running:
+```bash
+python -m ensurepip --upgrade
 
- 
- 
+```
+Installation Steps
 
+1)Clone the Repository:
+```bash
+git clone https://github.com/bhar44/flight_fare2.git
+
+
+```
+2)Install Dependencies: Install the required Python libraries using the requirements.txt file:
+```bash
+pip install -r requirements.txt
+
+
+
+```
+3)Run the Application: Once the dependencies are installed, you can start the Flask app by running:
+```bash
+python app.py
+
+
+
+
+```
+4)Access the Application: Open your browser and go to http://127.0.0.1:5000/ to access the Flight Fare Prediction web application.
 
 ## Directory Tree
 
