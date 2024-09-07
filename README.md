@@ -8,7 +8,7 @@
 - [Demo](#Demo)
 - [Overview](#Overview)
 - [Installation](#Installation)
-- [Deployement](#Deployement)
+- [Deployment](#Deployment)
 - [Directory Tree](#DirectoryTree)
 - [Technologies Used](#TechnologiesUsed)
 - [Future Scope ](#FutureScope)
@@ -30,7 +30,7 @@ The Code is written in Python 3.12.4.If you are using a lower version of Python 
   pip install -r requirements.txt
 ```
     
-## Deployement 
+## Deployment 
 To run the Flight Fare Prediction application locally, follow these steps:
 Prerequisites
 
